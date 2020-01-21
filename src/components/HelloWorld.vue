@@ -1,7 +1,7 @@
 <template>
-  <div class="hello">
+  <div class="title">
     <h1>{{ msg }}</h1>
-    <p>
+    <p class="title">
       For a guide and recipes on how to configure / customize this project,<br />
       check out the
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
@@ -89,14 +89,13 @@
 <script>
 export default {
   name: "HelloWorld",
-  props: {
-    msg: String
-  }
+  props: { msg: String }
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
 h3 {
   margin: 40px 0 0;
 }
